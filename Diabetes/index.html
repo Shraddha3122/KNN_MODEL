@@ -1,0 +1,31 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h1>Diabetes Prediction Form</h1>
+    <form action="/predict" method="post">
+        <label for="Pregnancies">Pregnancies:</label>
+        <input type="text" name="Pregnancies" required><br>
+        <label for="Glucose">Glucose:</label>
+        <input type="text" name="Glucose" required><br>
+        <label for="BloodPressure">Blood Pressure:</label>
+        <input type="text" name="BloodPressure" required><br>
+        <label for="SkinThickness">Skin Thickness:</label>
+        <input type="text" name="SkinThickness" required><br>
+        <label for="Insulin">Insulin:</label>
+        <input type="text" name="Insulin" required><br>
+        <label for="BMI">BMI:</label>
+        <input type="text" name="BMI" required><br>
+        <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function:</label>
+        <input type="text" name="DiabetesPedigreeFunction" required><br>
+        <label for="Age">Age:</label>
+        <input type="text" name="Age" required><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
